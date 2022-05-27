@@ -1,0 +1,47 @@
+.center{
+    text-align: center;
+}
+
+.article{
+    background-color: orange;
+    border: 5px dotted black;
+    margin: 20px;
+    width: 500px;
+    height: 200px;
+}
+a{
+    text-decoration: overline;
+}
+
+p{
+    font-weight: bold ;
+    font-size: 20px;
+    font-family: "roboto" sans-serif;
+}
+.maBox1{
+    background-color: chartreuse;
+    border: 3px solid red;
+    width: 60px;
+    height: 60px;
+}
+.maBox2{
+    background-color: rgb(0, 140, 255);
+    border: 3px solid red;
+    width: 60px;
+    height: 60px;
+}
+.maBox3{
+    background-color: rgb(75, 90, 88);
+    border: 3px solid rgb(255, 0, 191);
+    width: 60px;
+    height: 60px;
+}
+.position{
+position: relative;
+bottom: 7px;
+left: 40px;
+}
+.container{
+    display: flex;
+    flex-direction: column-reverse;
+}

@@ -1,0 +1,55 @@
+.center{
+    text-align: center;
+}
+.decoration{
+    background-color: beige;
+}
+.h1{
+font-size: 20px;
+font-weight: bold;
+font-family:"roboto", sans-serif ;
+color: blueviolet;
+}
+.photo{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    display: flex;
+    font-family: "roboto", sans-serif;
+    background-color: beige;
+    justify-content: space-evenly;
+}
+
+.centreDinteret{
+    display: flex;
+    justify-content:flex-start;
+}
+h3{
+    color: rgb(131, 139, 218)
+}
+.container{
+    width: 500px;
+    height: 20px;
+    background-color: rgb(150, 141, 141);
+}
+.skills{
+color: black;
+}
+.html{
+    width: 30%;
+    background-color: blueviolet;
+    text-align: center;
+}
+.contact-flex{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+
+}
+.contact-flex p :first-child{
+    flex: 0 0 40%;
+}
+.contact-flex p :last-child{
+    flex: 0 0 60%;
+}

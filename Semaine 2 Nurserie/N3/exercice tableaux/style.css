@@ -1,0 +1,25 @@
+.center{
+    text-align: center;
+}
+.decoration{
+    background-color: rgb(222, 214, 213);
+}
+@keyframes example {
+    0%   {background-color:blueviolet; left:0px; top:0px;}
+    25%  {background-color:blue; left:200px; top:0px;}
+    50%  {background-color: aqua; left:200px; top:200px;}
+    75%  {background-color:beige; left:0px; top:200px;}
+    100% {background-color:blueviolet; left:0px; top:0px;}
+  }
+  .div {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(26, 96, 108);
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  img:hover {
+    transform: scaleX(-1);
+  }
+c
+  

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercie 002 semaine 002</title>
+</head>
+
+<body id="top">
+
+    <head>
+        <nav>
+            <a href="#envoyer"> Aller sur le bouton de fin du formulaire</a>
+        </nav>
+        <center>
+            <h1>VOTRE RESERVATION D'HOTEL</h1>
+            <h3>*champs obligatoires</h3>
+        </center>
+    </head>
+
+            <label>votre nom*:</label><br>
+            <input type="text" required placeholder="nom de famille"><br>
+
+            <label>votre prenom*:</label><br>
+            <input type="text" required placeholder="prenom"><br><br>
+
+            <label>votre numero de telephone*:</label><br>
+            <input type="tel" placeholder="00 00 00 00 00 00" required><br>
+
+            <label>adresse e-mail*:</label><br>
+            <input type="email" required><br><br>
+
+            <label>selectionner la ville:</label><br>
+            <select name="ville">
+
+                <option value="lille"> Lille </option>
+                <option value="paris" selected>paris</option>
+                <option value="bordeaux">bordeaux</option>
+                <option value="marseille">marseille</option>
+                <option value="nantes">nantes</option>
+                <option value="lyon">lyon</option>
+                <option value="la rochelle">la rochelle</option>
+                <option value="poitiers">poitiers</option>
+                <option value="toulouse">toulouse</option>
+
+            </select><br><br>
+
+            <label>date d'arrivee:</label><br>
+            <input type="datetime-local"><br><br>
+
+            <label>nombre de personnes*:</label><br>
+            <input type="number" min="1" max="9" required><br><br>
+
+            <label>vos options:</label><br>
+            <label>climatisation</label>
+            <input type="checkbox">
+            <label>mini bar</label>
+            <input type="checkbox">
+            <label>jacuzzi</label>
+            <input type="checkbox"><br>
+
+            <label>choix de la couleur, pour la réservation:</label>
+            <input type="color" value="#C0e605"><br><br>
+
+            <textarea cols="35" rows="5" placeholder="ajouter un commentaire."></textarea><br><br>
+
+            <label>acceptation des conditions generales de vente
+                <a href="cgv.html" target="_blank">(cgv)*</a>
+            </label><br>
+
+            <input requeried checked type="radio" name="cgv">
+            <label>j'accepte</label>
+            <input type="radio" name="cgv">
+            <label>je refuse</label><br><br>
+
+
+            <input type="submit" id="envoyer" value="envoyer ma demande">
+        </form>
+    </section>
+    <footer>
+        <nav><a href="#top">Retour en haut</a>
+        </nav>
+    </footer>
+</body>
+
+</html>
